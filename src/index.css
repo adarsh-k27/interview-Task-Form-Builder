@@ -1,13 +1,130 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  list-style: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+  padding: .5rem .3rem;
+  margin-bottom: .5rem;
+  background-color: rgba(177, 174, 174, 0.286);
+  border-radius: 10%;
+  font-size: large;
+}
+
+li i {
+  padding: .2rem .2rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(177, 174, 174, 0.466);
+}
+
+.toolbar-group-item {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* .react-form-builder-preview {
+  width: 100%;
+  height: 27rem;
+  background-color: white;
+  border: solid;
+  border-color: rgba(0, 0, 0, 0.323);
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  position: fixed;
+}
+
+.react-form-builder-toolbar {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.react-form-builder-toolbar h4 {
+  font-size: larger;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.form-place-holder div {
+  font-style: normal;
+  font-weight: 800;
+}
+
+.submit-btn {
+  background-color: #0a57cad0;
+  padding: .3rem .3rem;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  border-radius: .3rem;
+  color: white;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: 5.2rem;
+} */
+
+.react-form-builder-toolbar {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: white;
+}
+
+.react-form-builder-toolbar h4 {
+  font-size: larger;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.react-form-builder-toolbar ul {
+  height: 86vh;
+  overflow-y: scroll;
+}
+
+.react-form-builder-preview {
+  width: 100%;
+  height: 27rem;
+  background-color: white;
+  border: solid;
+  border-color: rgba(0, 0, 0, 0.323);
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+.react-form-builder-preview div {
+  font-size: large;
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+
+.submit-btn {
+  background-color: #0a57cad0;
+  padding: .3rem .3rem;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  border-radius: .3rem;
+  color: white;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: 5.2rem;
 }
